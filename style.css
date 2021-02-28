@@ -13,19 +13,38 @@ img {
 }
 
 h1 {
-  color: pink;
+  color: #ffffff;
+}
+
+#here {
+  width: 100px;
+  height: 300px;
+  background-color: blue;
 }
 
 .container {
   justify-content: center;
   border: 30px pink groove;
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   background-color: rgb(184, 199, 100);
 }
 
-#border {
-  border: 25px rgb(74, 74, 161) groove;
+.navbar {
+  border: 25px rgb(173, 173, 235) groove;
   height: 100px;
-  background-color: rgb(19, 247, 11);
+  background-color: rgb(119, 221, 213);
+}
+
+.main {
+  background-color: #f1b0d4;
+  width: 100%;
+  height: 83%;
+  columns: 3;
+}
+
+.columns {
+  height: 500px;
+  width: 200px;
+  background-color: #ee0a87;
 }
